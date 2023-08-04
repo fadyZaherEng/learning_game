@@ -3,6 +3,6 @@ class ItemModel{
   bool isAccepting;
 
   ItemModel({
-    required this.name,required this.value,required this.image,required this.isAccepting
+    required this.name,required this.value,required this.image, this.isAccepting=false
 });
 }
